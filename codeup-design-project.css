@@ -1,4 +1,4 @@
-card-body {
+.container {
     font-size: 64px;
     justify-content: center;
 }
@@ -34,6 +34,8 @@ background-color: #00ABA9;
     width: 105px;
     height: 105px;
     border-radius: 50%;
+    border-width: thick;
+    border-color: white;
 }
 
 
@@ -54,4 +56,12 @@ background-color: #00ABA9;
 .px{
     padding: 10px;
 }
+
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    ;
 }
