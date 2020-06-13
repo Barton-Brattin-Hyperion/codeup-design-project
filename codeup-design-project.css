@@ -19,16 +19,19 @@ h3 {
 }
 .color-red {
     background-color: #E6563B;
+    margin: 5px;
 }
 .color-orange {
     background-color: #DEA03D;
-
+    margin: 5px;
 }
 .color-green {
-background-color: #7CB06C;
+    background-color: #7CB06C;
+    margin: 5px;
 }
 .color-blue {
-background-color: #00ABA9;
+    background-color: #00ABA9;
+    margin: 5px;
 }
 .circle {
     width: 105px;
@@ -41,6 +44,7 @@ background-color: #00ABA9;
 
 .anton {
     font-family: 'Anton', sans-serif;
+
 }
 .abel{
     font-family: 'Abel', sans-serif;
@@ -57,12 +61,70 @@ background-color: #00ABA9;
     padding: 10px;
 }
 .apple-image {
-    margin-top: 250px;
+    margin-top: 25px;
+    margin-bottom: 2px;
 }
+.selected-work {
+    margin-top: 200px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+}
+.featured {
+    margin-top: 1px;
+    font-size: 30px;
+    display: flex;
+    align-content: flex-start;
+    font-family: 'Abel', sans-serif;
 
+}
 .center-block {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    ;
+
 }
+.sbuttons {
+    display: flex;
+    align-content: center;
+
+
+}
+.sbuttons>p{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 9px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+
+}
+.sbuttonred {
+    background-color: #E6563B;
+
+
+
+}
+
+.sbuttonorange {
+    background-color: #DEA03D;
+
+
+}
+
+.sbuttongreen {
+    background-color: #7CB06C;
+
+}
+
+.sbuttonblue {
+    background-color: #00ABA9;
+}
+
+
+
+
