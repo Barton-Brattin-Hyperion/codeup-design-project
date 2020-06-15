@@ -37,16 +37,18 @@ h1 {
     font-size: 64px;
 }
 h3 {
-    text-align: center;
-    font-size: 40px;
 
+    font-size: 40px;
+    font-family: Anton;
+
+}
 
 .lower-container, .card, h4{
     background-color: #F0F0F0;
     border: none;
     font-size: 10px;
 }
-}
+
 .color-red {
     background-color: #E6563B;
 }
@@ -105,4 +107,40 @@ body {
     margin-right: auto;
     width: 104px;
     height: 104px;
+}
+.project-card {
+ padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.project-card img {
+    display: flex;
+    flex-grow: 1;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 8px solid gray;
+    border-radius: 7px;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    width: 18px;
+    font-size: 9px;
+    font-family: Anton;
+    font-weight: 300;
+    border-radius: 50%;
+    margin: 0 2px;
+
+}
+
+.content-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
 }
