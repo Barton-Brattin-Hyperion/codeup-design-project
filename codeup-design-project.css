@@ -1,7 +1,30 @@
 .container {
-    font-size: 64px;
-    justify-content: center;
+
+ justify-content: center;
+
 }
+.letterCircle {
+    display: block;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
+
+
+.logo {
+    width: 104px;
+    height: 104px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: inherit;
+}
+
 h2 {
     text-align: center;
     align-content: space-around;
@@ -16,6 +39,13 @@ h1 {
 h3 {
     text-align: center;
     font-size: 40px;
+
+
+.lower-container, .card, h4{
+    background-color: #F0F0F0;
+    border: none;
+    font-size: 10px;
+}
 }
 .color-red {
     background-color: #E6563B;
@@ -64,4 +94,15 @@ background-color: #00ABA9;
     margin-left: auto;
     margin-right: auto;
     ;
+}
+body {
+    background-color: #E6E6E6;
+}
+
+.centerlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 104px;
+    height: 104px;
 }
