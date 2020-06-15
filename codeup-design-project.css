@@ -51,16 +51,19 @@ h3 {
 
 .color-red {
     background-color: #E6563B;
+    margin: 5px;
 }
 .color-orange {
     background-color: #DEA03D;
-
+    margin: 5px;
 }
 .color-green {
-background-color: #7CB06C;
+    background-color: #7CB06C;
+    margin: 5px;
 }
 .color-blue {
-background-color: #00ABA9;
+    background-color: #00ABA9;
+    margin: 5px;
 }
 .circle {
     width: 105px;
@@ -73,6 +76,7 @@ background-color: #00ABA9;
 
 .anton {
     font-family: 'Anton', sans-serif;
+
 }
 .abel{
     font-family: 'Abel', sans-serif;
@@ -88,14 +92,31 @@ background-color: #00ABA9;
 .px{
     padding: 10px;
 }
+.apple-image {
+    margin-top: 25px;
+    margin-bottom: 2px;
+}
+.selected-work {
+    margin-top: 200px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+}
+.featured {
+    margin-top: 1px;
+    font-size: 30px;
+    display: flex;
+    align-content: flex-start;
+    font-family: 'Abel', sans-serif;
 
 }
-
 .center-block {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    ;
+
+
 }
 body {
     background-color: #E6E6E6;
@@ -127,6 +148,12 @@ body {
 
 .badge {
     display: flex;
+
+
+}
+.sbuttons {
+    display: flex;
+    align-content: center;
     align-items: center;
     justify-content: center;
     height: 18px;
